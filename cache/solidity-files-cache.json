@@ -1,0 +1,267 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\Diamond.sol": {
+      "lastModificationDate": 1708607143169,
+      "contentHash": "93eb3754db4cda10f91a8b371f1f2b8c",
+      "sourceName": "contracts/Diamond.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/LibDiamond.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Diamond"
+      ]
+    },
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\libraries\\LibDiamond.sol": {
+      "lastModificationDate": 1708608019388,
+      "contentHash": "410b19e8104cc8a7be76ccf5df8c7533",
+      "sourceName": "contracts/libraries/LibDiamond.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "LibDiamond"
+      ]
+    },
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\erc20facet\\ERC20Internal.sol": {
+      "lastModificationDate": 1708610320818,
+      "contentHash": "4c74a7dd6549d5fa193f9d9482d4104a",
+      "sourceName": "contracts/erc20facet/ERC20Internal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Internal.sol",
+        "./ERC20Storage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Internal"
+      ]
+    },
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\erc20facet\\IERC20Internal.sol": {
+      "lastModificationDate": 1708682443516,
+      "contentHash": "553f67fa22f49e7e66faa3df2888f21f",
+      "sourceName": "contracts/erc20facet/IERC20Internal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Internal"
+      ]
+    },
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\erc20facet\\ERC20Storage.sol": {
+      "lastModificationDate": 1708609521297,
+      "contentHash": "3c25856a08123bc6362b254bda8ad763",
+      "sourceName": "contracts/erc20facet/ERC20Storage.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Storage"
+      ]
+    },
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\erc20facet\\ERC20Package.sol": {
+      "lastModificationDate": 1708609793699,
+      "contentHash": "f9eb189ca3935addd897a62667e03252",
+      "sourceName": "contracts/erc20facet/ERC20Package.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./ERC20Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Package"
+      ]
+    },
+    "C:\\Users\\hp\\Desktop\\BDT-landing-page\\Diamond-test\\contracts\\erc20facet\\IERC20.sol": {
+      "lastModificationDate": 1708609481606,
+      "contentHash": "0822bf0caca4cbac609ea06cbe3b4f3d",
+      "sourceName": "contracts/erc20facet/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
